@@ -1,0 +1,58 @@
+.comfort{
+    padding: 128px 0;
+}
+.comfort__row {
+    display: flex;
+    align-items: center;
+    column-gap: 162px;
+
+
+}
+.comfort__right {
+
+    width: 50%;
+
+}
+.comfort__img {
+    width: 100%;
+}
+.comfort__btns{
+    display: flex;
+    column-gap: 8px;
+    margin-top:21px;
+}
+.comfort__btn{
+    padding: 13px 25px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+.comfort__btn2{
+    border: none;
+}
+.comfort__process{
+
+    display: flex;
+    column-gap: 67px;
+
+
+}
+.comfort__process-card{
+    width: 50%;
+}
+.comfort__process-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2A2C1F;
+    margin:16px 0 18px ;
+}
+.comfort__process-desc{
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;
+}
+
+
+

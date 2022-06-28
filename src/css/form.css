@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    position: relative;
+}
+
+.form__field{
+    width: 310px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    padding-left: 56px;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.form__field::placeholder{
+    font-size: 20px;
+    line-height: 30px;
+    color: #65665C;
+}
+
+.form__search{
+    position: absolute;
+    top: 15px;
+    left: 19px;
+    cursor: pointer;
+}

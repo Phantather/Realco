@@ -1,0 +1,72 @@
+.area{
+    padding: 132px 0 160px;
+    background: #F5F5F2;
+    position: relative;
+}
+.area::before{
+    content: url("../images/area/before.png");
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.area::after{
+    content: url("../images/area/after.png");
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.area__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #2A2C1F;
+    margin-bottom: 82px;
+}
+.area__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px;
+}
+.area__card{
+    width: calc(33.33333% - 21.33333px);
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+.area__info{
+
+    padding: 25px 0 26px 24px;
+}
+.area__info-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2A2C1F
+}
+.area__info-price{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2C1F;
+    margin: 3px 0 16px;
+}
+.area__info-map{
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.area__info-category{
+    display: flex;
+    column-gap: 26px;
+    align-items: center;
+}
+.area__btns{
+    justify-content: center;
+}

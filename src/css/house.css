@@ -1,0 +1,26 @@
+.house{
+    padding: 160px 0 162px;
+    background: #F5F5F2;
+    position: relative;
+}
+
+.house__title{
+    margin: 20px 0;
+    font-size: 56px;
+    line-height: 67px;
+    color: #2A2C1F;
+}
+.house__desc{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 21px;
+    color: #65665C;
+}
+
+.house__img{
+    width: 50%;
+    max-width: 720px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}

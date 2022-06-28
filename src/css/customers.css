@@ -1,0 +1,36 @@
+.customers{
+    padding: 155px 0;
+}
+.customers__subtitle{
+    margin-bottom: 80px;
+}
+.customers__col{
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 33px 33px 60px 33px;
+}
+.customers__col-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2C1F;
+    margin: 29px 0;
+}
+.customers__person{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.customers__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2C1F;
+
+}
+.customers__prof{
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;
+}

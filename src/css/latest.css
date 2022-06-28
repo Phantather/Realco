@@ -1,0 +1,31 @@
+.latest{
+    background: #F5F5F2;
+    padding: 128px 0;
+}
+.latest__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest__subtitle{
+    margin-bottom: 21px;
+}
+.latest__info-date{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.latest__card-link{
+    display: inline-block;
+    margin-top: 31px;
+}
+.latest__card{
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+
+}
+.latest__card-info{
+    padding: 28px 25px 25px;
+}
